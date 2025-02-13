@@ -19,7 +19,7 @@ terraform validate
 terraform plan
 terraform apply
 
-show state terraform
 
-+ terraform show.
+#### show state terraform
 
+terraform show.

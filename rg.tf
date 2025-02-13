@@ -1,4 +1,10 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
+  name     = var.resource_group_name
   location = "westus2"
+
+  tags = {
+    Environment = "Terraform Getting Started"
+    Team        = "DevOps"
+  }
+
 }
